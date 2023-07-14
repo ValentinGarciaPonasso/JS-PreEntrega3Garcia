@@ -1,0 +1,105 @@
+body {
+    background-color: bisque;
+}
+
+.warnings{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */    
+}
+.alertaNombre{
+    color: red;
+    font-weight: bold;
+    visibility: hidden;    
+}
+.alertaDocumento{
+    color: red;
+    font-weight: bold;
+    visibility: hidden;    
+}
+
+.warnings-nombre{
+    color: red;
+    font-weight: bold;   
+}
+.warnings-documento{
+    color: red;
+    font-weight: bold;  
+}
+
+.bordeNombre{
+    border-color: red;
+    border-width: 2px;
+}
+
+.bordeDocumento{
+    border-color: red;
+    border-width: 2px;
+}
+
+.creacionOK{
+    position: relative;
+    right: 50%;
+    color: green;
+    font-weight: bold;    
+}
+
+.creacionNoOK{
+    visibility: hidden;
+}
+
+.cuotasListadoNo{
+    display: none;
+}
+
+.cuotasListado{
+    width: 90%;
+    background-color: rgb(9, 160, 72);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.cuotasListado h2{
+    color: rgb(0, 0, 0);
+    justify-self: center;
+    text-shadow: 10px black;
+}
+
+.sinCuotasNo {
+    display: none;
+}
+
+.sinCuotas h3 {
+    color: red;
+    size: 1.5 rem;
+}
+
+.btn-outline-danger{
+    font-weight: bolder;
+    border-width: 2px;
+    background-color: rgb(104, 196, 104);
+}
+
+.acordeon {
+    width: 80vw;
+}
+
+.acordeonXl{
+    background-color: bisque;
+}
+
+.cuotasListado div{
+    width: 90%;
+}
+
+.acordeonXL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 50px 0px;
+}   
